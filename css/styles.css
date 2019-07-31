@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Oxygen|Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Darker+Grotesque&display=swap');
 
+body {
+	background-color: rgba(255, 165, 0, 1);
+}
 
 h2 {
 	font-family: 'Darker Grotesque', sans-serif;
@@ -13,6 +16,7 @@ h2 {
     background-size: cover;
     width: 100vw;
     height: auto;
+    margin-bottom: 0rem;
 }
 
 .jumbotron h1 {
@@ -33,7 +37,15 @@ h2 {
     font-weight: bold;
 }
 
-/*The styling for the about us section */
+/* This styles the menu section */
+.container.images {
+    padding-top: 5%;
+}
+
+#menulist {
+	background-color: white;
+}
+
 .container.col-md-4 {
     padding-bottom: 2%;
 }
@@ -42,7 +54,7 @@ h2 {
     font-size: 1rem;
     text-align: center;
     padding: 4% 0% 4% 0%;
-    font-family: Quicksand;
+    font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
 }
 
@@ -61,4 +73,22 @@ h2 {
     background-color: rgba(255, 165, 0, 0.9);
     width: 120%;
     height: 120%;
+}
+
+/*The styling for the about us section*/
+#aboutus {
+	background-color: rgba(255, 165, 0, 0.9);
+}
+
+#aboutus p {
+	font-family: 'Comfortaa', cursive;
+}
+
+#aboutus h2{
+	color: white;
+}
+
+#footer p {
+	color: white;
+	font-family :'Quicksand', sans-serif;
 }
