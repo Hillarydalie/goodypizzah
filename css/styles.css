@@ -1,1 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Oxygen|Quicksand&display=swap');
+
+.jumbotron {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+}
+
+.jumbotron h1 {
+    font-size: 6.0rem;
+    color: white;
+    line-height: 1;
+    color: rgba(255, 165, 0, 0.9);
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.jumbotron p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+    line-height: 0.4;
+    font-family: Quicksand;
+    font-weight: bold;
+}
